@@ -13,6 +13,7 @@ public class SecurityConfig {
         http.authorizeHttpRequests((requests) -> requests
                 .requestMatchers("").permitAll()
                 .requestMatchers("").authenticated()
+
         );
 
 
