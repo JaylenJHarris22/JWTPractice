@@ -14,7 +14,8 @@ public class SecurityConfig {
                 .requestMatchers("").permitAll()
                 .requestMatchers("").authenticated()
 
-        );
+        ).
+        ;
 
 
         return http.build();
